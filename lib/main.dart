@@ -9,7 +9,7 @@ void main() {
   runApp(
     ChangeNotifierProvider(
       create: (_) => ThemeProvider(),
-      child:  const MyApp(),
+      child: const MyApp(),
     ),
   );
 }
@@ -27,13 +27,13 @@ class MyApp extends StatelessWidget {
       darkTheme: darkTheme,
       themeMode: themeProvider.themeMode,
       builder: (context, widget) => ResponsiveBreakpoints.builder(
-
         breakpoints: [
           const Breakpoint(start: 0, end: 450, name: MOBILE),
           const Breakpoint(start: 451, end: 800, name: TABLET),
           const Breakpoint(start: 801, end: 1920, name: DESKTOP),
           const Breakpoint(start: 1921, end: double.infinity, name: '4K'),
-        ], child:widget!,
+        ],
+        child: widget!,
       ),
       home: const HomePage(),
     );
