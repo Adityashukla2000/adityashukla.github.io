@@ -27,7 +27,7 @@ class SkillsSection extends StatelessWidget {
     mainAxisSize: MainAxisSize.min,
     children: [
       Image.asset("assets/images/flutter.png",width: 26), // Ensure the path is correct
-      Text("Flutter"),
+      const Text("Flutter"),
     ],
   ),
 ),
@@ -35,21 +35,21 @@ class SkillsSection extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Image.asset("assets/images/dart.png",width: 26), // Ensure the path is correct
-                  Text("Dart"),
+                  const Text("Dart"),
                 ],
               )),
               Chip(label: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Image.asset("assets/images/java.png",width: 26), // Ensure the path is correct
-                  Text("Java"),
+                  const Text("Java"),
                 ],
               )),
               Chip(label: Row(
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   Image.asset("assets/images/firebase.png",width: 26), // Ensure the path is correct
-                  Text("Firebase"),
+                  const Text("Firebase"),
                 ],
               )),
               Chip(label: Row(
@@ -57,7 +57,7 @@ class SkillsSection extends StatelessWidget {
                 children: [
        Image.asset("assets/images/ux.png",width: 26), // Ensure the path is correct
  
-                  Text("Responsive Design"),
+                  const Text("Responsive Design"),
                 ],
               )),
             ],
