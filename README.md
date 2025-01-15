@@ -1,9 +1,16 @@
-# html-freebie-triple-p
-Website Template Name: Triple P (Pixel Perfect Portfolio)
+# aditya
 
-Description: Pixel Perfect Portfolio is a modern and elegant One-Page HTML template. The template is built using technologies such as Bootstrap 3+, jQuery, SASS, Gulp &amp; Bower. It's perfectly suitable for freelancers, designers &amp; all kind of artists who want to show off their work.  
+A new Flutter project.
 
-Version: 1
-Author: Pixel Perfect Team
-Author URI: http://pixelperfect.mk/
-Keywords: HTML, CSS, Bootstrap, Responsive, Javascript, jQuery, Parallax, Portfolio, CV, Resume
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
