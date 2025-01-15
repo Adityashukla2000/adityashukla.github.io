@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 class AboutSection extends StatelessWidget {
-  const AboutSection({Key? key}) : super(key: key);
+  const AboutSection({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -50,16 +50,16 @@ class AboutSection extends StatelessWidget {
                         onPressed: () {
                           // Code to download resume
                         },
-                        child: Text("Download Resume"),
+                        child: const Text("Download Resume"),
                       ),
 
-                    SizedBox(width: 10),
-                    SizedBox(height: 10),
+                    const SizedBox(width: 10),
+                    const SizedBox(height: 10),
                   ElevatedButton(
                     onPressed: () {
                       // Code to navigate to Contact Us page
                     },
-                    child: Text("Contact Us"),
+                    child: const Text("Contact Us"),
                   ),
                     ],
                   ),
