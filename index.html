@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Aditya Shukla showcasing projects, skills, and contact information.">
+
+  <!-- SEO Meta Tags -->
+  <meta property="og:title" content="Aditya Shukla - Portfolio">
+  <meta property="og:description" content="Portfolio of Aditya Shukla showcasing projects, skills, and contact information.">
+  <meta property="og:image" content="https://adityashukla.online/assets/og-image.png">
+  <meta property="og:url" content="https://adityashukla.online">
+  <meta property="og:type" content="website">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Aditya Shukla">
+  <link rel="apple-touch-icon" href="icons/logo-aerium-2.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Preload Critical Resources -->
+  <link rel="preload" href="main.dart.js" as="script">
+  <link rel="preload" href="flutter_service_worker.js" as="script">
+
+  <!-- Title -->
+  <title>Aditya Shukla - Portfolio</title>
+
+  <!-- JavaScript -->
+  <script type="application/javascript">
+      function openLink(url, target, isAsync=false) {
+        var is_safari = /^(?!.*chrome).*safari/i.test(navigator.userAgent.toLowerCase());
+        if (is_safari && isAsync) {
+          window.location.href = url;
+        } else {
+          window.open(url, target);
+        }
+      }
+  </script>
+</head>
+<body id="app-container" role="application">
+  <noscript>
+    <p>Please enable JavaScript to view this application.</p>
+  </noscript>
+
+  <!-- Service Worker -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=1155856174');
+      });
+    }
+  </script>
+
+  <!-- Main Dart Script -->
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
